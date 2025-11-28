@@ -1,0 +1,254 @@
+{
+  "sections": [
+    {
+      "id": "s1",
+      "title": "Unidad 1: Cinemática",
+      "description": "El estudio del movimiento",
+      "color": "blue",
+      "lessons": [
+        {
+          "id": "l1",
+          "title": "Posición y Desplazamiento",
+          "description": "Conceptos básicos de ubicación",
+          "isCompleted": true,
+          "isLocked": false,
+          "stars": 3,
+          "xpReward": 50,
+          "exercises": [
+            {
+              "id": "e1",
+              "type": "theory",
+              "question": "¿Qué es el desplazamiento?",
+              "options": ["Cambio de posición", "Distancia total", "Velocidad"],
+              "correctAnswer": 0,
+              "explanation": "El desplazamiento es el cambio de posición de un objeto, es una magnitud vectorial que considera la posición inicial y final."
+            },
+            {
+              "id": "e1b",
+              "type": "quiz",
+              "question": "Si caminas 5m hacia el norte y luego 3m hacia el sur, ¿cuál es tu desplazamiento?",
+              "options": ["8m", "2m hacia el norte", "2m hacia el sur"],
+              "correctAnswer": 1,
+              "explanation": "El desplazamiento neto es 5m - 3m = 2m hacia el norte, ya que es la diferencia entre posición final e inicial."
+            },
+            {
+              "id": "e1c",
+              "type": "quiz",
+              "question": "¿Cuál es la diferencia entre distancia y desplazamiento?",
+              "options": ["No hay diferencia", "La distancia es escalar, el desplazamiento es vectorial", "El desplazamiento siempre es mayor"],
+              "correctAnswer": 1,
+              "explanation": "La distancia es la longitud total del camino recorrido (escalar), mientras que el desplazamiento considera solo la posición inicial y final (vectorial)."
+            }
+          ]
+        },
+        {
+          "id": "l2",
+          "title": "Velocidad y Rapidez",
+          "description": "Diferencia entre escalar y vectorial",
+          "isCompleted": true,
+          "isLocked": false,
+          "stars": 2,
+          "xpReward": 50,
+          "exercises": [
+            {
+              "id": "e2",
+              "type": "quiz",
+              "question": "¿Cuál es la diferencia principal entre velocidad y rapidez?",
+              "options": ["No hay diferencia", "La velocidad tiene dirección", "La rapidez tiene dirección"],
+              "correctAnswer": 1,
+              "explanation": "La velocidad es una magnitud vectorial (tiene dirección y sentido), mientras que la rapidez es escalar (solo magnitud)."
+            },
+            {
+              "id": "e2b",
+              "type": "quiz",
+              "question": "Si un auto recorre 100 km en 2 horas, ¿cuál es su rapidez promedio?",
+              "options": ["50 km/h", "100 km/h", "200 km/h"],
+              "correctAnswer": 0,
+              "explanation": "La rapidez promedio se calcula dividiendo la distancia total entre el tiempo: 100 km ÷ 2 h = 50 km/h."
+            },
+            {
+              "id": "e2c",
+              "type": "quiz",
+              "question": "Un corredor da una vuelta completa a una pista circular en 60 segundos. ¿Cuál es su velocidad promedio?",
+              "options": ["Depende del radio de la pista", "Cero", "Máxima"],
+              "correctAnswer": 1,
+              "explanation": "Como regresa al punto de partida, su desplazamiento es cero, por lo tanto su velocidad promedio es cero. Sin embargo, su rapidez promedio no es cero."
+            },
+            {
+              "id": "e2d",
+              "type": "quiz",
+              "question": "¿Qué unidad NO es válida para medir velocidad?",
+              "options": ["m/s", "km/h", "kg/m"],
+              "correctAnswer": 2,
+              "explanation": "kg/m no es una unidad de velocidad. La velocidad se mide en unidades de distancia sobre tiempo (m/s, km/h, etc.)."
+            }
+          ]
+        },
+        {
+          "id": "l3",
+          "title": "Aceleración",
+          "description": "Cambios en la velocidad",
+          "isCompleted": false,
+          "isLocked": false,
+          "stars": 0,
+          "xpReward": 75,
+          "exercises": [
+            {
+              "id": "e3",
+              "type": "quiz",
+              "question": "Si un auto frena, su aceleración es:",
+              "options": ["Positiva", "Negativa (o opuesta al movimiento)", "Cero"],
+              "correctAnswer": 1,
+              "explanation": "Cuando un objeto disminuye su velocidad, la aceleración actúa en sentido contrario al movimiento, por lo que se considera negativa o desaceleración."
+            },
+            {
+              "id": "e3b",
+              "type": "quiz",
+              "question": "Un auto aumenta su velocidad de 0 a 20 m/s en 4 segundos. ¿Cuál es su aceleración?",
+              "options": ["5 m/s²", "20 m/s²", "80 m/s²"],
+              "correctAnswer": 0,
+              "explanation": "La aceleración se calcula como el cambio de velocidad dividido por el tiempo: (20 - 0) m/s ÷ 4 s = 5 m/s²."
+            },
+            {
+              "id": "e3c",
+              "type": "quiz",
+              "question": "¿Qué significa que un objeto tenga aceleración constante?",
+              "options": ["Su velocidad no cambia", "Su velocidad cambia uniformemente", "No se mueve"],
+              "correctAnswer": 1,
+              "explanation": "Aceleración constante significa que la velocidad cambia en la misma cantidad por cada unidad de tiempo."
+            },
+            {
+              "id": "e3d",
+              "type": "quiz",
+              "question": "Si un objeto se mueve con velocidad constante, su aceleración es:",
+              "options": ["Máxima", "Cero", "Negativa"],
+              "correctAnswer": 1,
+              "explanation": "Si la velocidad es constante (no cambia), entonces no hay aceleración, por lo que a = 0."
+            }
+          ]
+        },
+        {
+          "id": "l4",
+          "title": "Caída Libre",
+          "description": "Movimiento bajo gravedad",
+          "isCompleted": false,
+          "isLocked": true,
+          "stars": 0,
+          "xpReward": 100,
+          "exercises": [
+            {
+              "id": "e4",
+              "type": "quiz",
+              "question": "¿Cuál es el valor aproximado de la gravedad en la Tierra?",
+              "options": ["9.8 m/s²", "12 m/s²", "5 m/s²"],
+              "correctAnswer": 0,
+              "explanation": "La aceleración debida a la gravedad en la superficie terrestre es aproximadamente 9.8 m/s²."
+            },
+            {
+              "id": "e4b",
+              "type": "quiz",
+              "question": "En ausencia de resistencia del aire, dos objetos de diferente masa caen:",
+              "options": ["El más pesado cae más rápido", "El más ligero cae más rápido", "Ambos caen a la misma velocidad"],
+              "correctAnswer": 2,
+              "explanation": "En caída libre (sin resistencia del aire), todos los objetos caen con la misma aceleración independientemente de su masa."
+            },
+            {
+              "id": "e4c",
+              "type": "quiz",
+              "question": "Si lanzas una pelota hacia arriba, en el punto más alto de su trayectoria:",
+              "options": ["Su velocidad y aceleración son cero", "Su velocidad es cero pero la aceleración es 9.8 m/s² hacia abajo", "Su aceleración es cero"],
+              "correctAnswer": 1,
+              "explanation": "En el punto más alto, la velocidad es momentáneamente cero, pero la aceleración gravitacional (9.8 m/s² hacia abajo) siempre está presente."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "Unidad 2: Dinámica",
+      "description": "Fuerzas y Leyes de Newton",
+      "color": "green",
+      "lessons": [
+        {
+          "id": "l5",
+          "title": "Primera Ley de Newton",
+          "description": "Inercia y equilibrio",
+          "isCompleted": false,
+          "isLocked": true,
+          "stars": 0,
+          "xpReward": 100,
+          "exercises": [
+            {
+              "id": "e5",
+              "type": "quiz",
+              "question": "Un objeto en reposo permanecerá en reposo a menos que...",
+              "options": ["Se le aplique una fuerza neta", "Tenga masa", "Esté en el vacío"],
+              "correctAnswer": 0,
+              "explanation": "Esta es la definición de la inercia (Primera Ley de Newton): un objeto mantiene su estado de movimiento a menos que una fuerza externa actúe sobre él."
+            },
+            {
+              "id": "e5b",
+              "type": "quiz",
+              "question": "¿Qué es la inercia?",
+              "options": ["La fuerza que actúa sobre un objeto", "La tendencia de un objeto a mantener su estado de movimiento", "La velocidad de un objeto"],
+              "correctAnswer": 1,
+              "explanation": "La inercia es la propiedad de la materia de resistir cambios en su estado de movimiento. A mayor masa, mayor inercia."
+            },
+            {
+              "id": "e5c",
+              "type": "quiz",
+              "question": "Un libro está en reposo sobre una mesa. ¿Por qué no se mueve?",
+              "options": ["No hay fuerzas actuando", "Las fuerzas están balanceadas (fuerza neta = 0)", "La gravedad no actúa sobre él"],
+              "correctAnswer": 1,
+              "explanation": "El libro está en equilibrio: la fuerza de gravedad hacia abajo es igual a la fuerza normal de la mesa hacia arriba, resultando en fuerza neta cero."
+            }
+          ]
+        },
+        {
+          "id": "l6",
+          "title": "Segunda Ley de Newton",
+          "description": "Fuerza, masa y aceleración",
+          "isCompleted": false,
+          "isLocked": true,
+          "stars": 0,
+          "xpReward": 100,
+          "exercises": [
+            {
+              "id": "e6",
+              "type": "quiz",
+              "question": "¿Cuál es la fórmula de la Segunda Ley de Newton?",
+              "options": ["F = m/a", "F = m*a", "F = a/m"],
+              "correctAnswer": 1,
+              "explanation": "La fuerza neta es igual a la masa multiplicada por la aceleración (F = m*a)."
+            },
+            {
+              "id": "e6b",
+              "type": "quiz",
+              "question": "Si aplicas una fuerza de 10 N a un objeto de 2 kg, ¿cuál es su aceleración?",
+              "options": ["5 m/s²", "20 m/s²", "12 m/s²"],
+              "correctAnswer": 0,
+              "explanation": "Usando F = m*a, despejamos a = F/m = 10 N / 2 kg = 5 m/s²."
+            },
+            {
+              "id": "e6c",
+              "type": "quiz",
+              "question": "Si duplicas la fuerza aplicada a un objeto (manteniendo la masa constante), la aceleración:",
+              "options": ["Se mantiene igual", "Se duplica", "Se reduce a la mitad"],
+              "correctAnswer": 1,
+              "explanation": "Según F = m*a, si F se duplica y m es constante, entonces a también se duplica (relación directamente proporcional)."
+            },
+            {
+              "id": "e6d",
+              "type": "quiz",
+              "question": "¿Qué pasa con la aceleración si duplicas la masa pero mantienes la fuerza constante?",
+              "options": ["Se duplica", "Se mantiene igual", "Se reduce a la mitad"],
+              "correctAnswer": 2,
+              "explanation": "Según F = m*a, si m se duplica y F es constante, entonces a se reduce a la mitad (relación inversamente proporcional)."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

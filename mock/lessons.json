@@ -1,0 +1,1442 @@
+[
+  {
+    "id": "phys-s01-l01",
+    "n_lesson": 1,
+    "n_section": 1,
+    "header": "Análisis Dimensional: Concepto",
+    "type": "question",
+    "options": ["Estudia las dimensiones geométricas.", "Relaciona magnitudes fundamentales y derivadas.", "Mide la longitud de objetos.", "Solo se usa en matemáticas."],
+    "response": ["Relaciona magnitudes fundamentales y derivadas."]
+  },
+  {
+    "id": "phys-s01-l02",
+    "n_lesson": 2,
+    "n_section": 1,
+    "header": "Análisis Dimensional: Ecuación Dimensional de la Velocidad",
+    "type": "formula",
+    "options": ["L", "T", "-1", "[", "]", "^"],
+    "response": ["[", "L", "]", "[", "T", "]", "^", "-1"]
+  },
+  {
+    "id": "phys-s01-l03",
+    "n_lesson": 3,
+    "n_section": 1,
+    "header": "Análisis Dimensional: Magnitudes Fundamentales",
+    "type": "question",
+    "options": ["Velocidad, Aceleración, Fuerza", "Masa, Longitud, Tiempo", "Energía, Trabajo, Potencia", "Presión, Densidad, Volumen"],
+    "response": ["Masa, Longitud, Tiempo"]
+  },
+  {
+    "id": "phys-s01-l04",
+    "n_lesson": 4,
+    "n_section": 1,
+    "header": "Análisis Dimensional: Ecuación Dimensional de la Fuerza",
+    "type": "formula",
+    "options": ["M", "L", "T", "-2", "[", "]", "^"],
+    "response": ["[", "M", "]", "[", "L", "]", "[", "T", "]", "^", "-2"]
+  },
+  {
+    "id": "phys-s01-l05",
+    "n_lesson": 5,
+    "n_section": 1,
+    "header": "Análisis Dimensional: Principio de Homogeneidad",
+    "type": "question",
+    "options": ["Solo se suman números.", "Todos los términos deben tener la misma dimensión.", "Las dimensiones se multiplican.", "No importa la unidad."],
+    "response": ["Todos los términos deben tener la misma dimensión."]
+  },
+  {
+    "id": "phys-s02-l01",
+    "n_lesson": 1,
+    "n_section": 2,
+    "header": "Análisis Vectorial: Definición de Vector",
+    "type": "question",
+    "options": ["Solo tiene magnitud.", "Es un ente matemático con módulo y dirección.", "Es una línea curva.", "Siempre es positivo."],
+    "response": ["Es un ente matemático con módulo y dirección."]
+  },
+  {
+    "id": "phys-s02-l02",
+    "n_lesson": 2,
+    "n_section": 2,
+    "header": "Análisis Vectorial: Resultante Máxima",
+    "type": "formula",
+    "options": ["Rmax", "=", "A", "+", "B"],
+    "response": ["Rmax", "=", "A", "+", "B"]
+  },
+  {
+    "id": "phys-s02-l03",
+    "n_lesson": 3,
+    "n_section": 2,
+    "header": "Análisis Vectorial: Método del Paralelogramo",
+    "type": "question",
+    "options": ["Para vectores colineales.", "Para vectores concurrentes.", "Para vectores paralelos.", "Para vectores nulos."],
+    "response": ["Para vectores concurrentes."]
+  },
+  {
+    "id": "phys-s02-l04",
+    "n_lesson": 4,
+    "n_section": 2,
+    "header": "Análisis Vectorial: Ley de Cosenos (Módulo)",
+    "type": "formula",
+    "options": ["R", "√", "(", "A^2", "+", "B^2", "+", "2ABcosθ", ")", "="],
+    "response": ["R", "=", "√", "(", "A^2", "+", "B^2", "+", "2ABcosθ", ")"]
+  },
+  {
+    "id": "phys-s02-l05",
+    "n_lesson": 5,
+    "n_section": 2,
+    "header": "Análisis Vectorial: Producto Escalar",
+    "type": "question",
+    "options": ["Da como resultado un vector.", "Da como resultado un escalar (número).", "No existe.", "Es el producto cruz."],
+    "response": ["Da como resultado un escalar (número)."]
+  },
+  {
+    "id": "phys-s03-l01",
+    "n_lesson": 1,
+    "n_section": 3,
+    "header": "Cinemática Rectilínea: MRU",
+    "type": "question",
+    "options": ["Velocidad variable.", "Aceleración constante.", "Velocidad constante.", "Trayectoria circular."],
+    "response": ["Velocidad constante."]
+  },
+  {
+    "id": "phys-s03-l02",
+    "n_lesson": 2,
+    "n_section": 3,
+    "header": "Cinemática Rectilínea: Ecuación MRU",
+    "type": "formula",
+    "options": ["d", "=", "v", "*", "t"],
+    "response": ["d", "=", "v", "*", "t"]
+  },
+  {
+    "id": "phys-s03-l03",
+    "n_lesson": 3,
+    "n_section": 3,
+    "header": "Cinemática Rectilínea: MRUV Acelerado",
+    "type": "question",
+    "options": ["Velocidad y aceleración tienen sentidos opuestos.", "Velocidad y aceleración tienen el mismo sentido.", "Aceleración es cero.", "Velocidad es constante."],
+    "response": ["Velocidad y aceleración tienen el mismo sentido."]
+  },
+  {
+    "id": "phys-s03-l04",
+    "n_lesson": 4,
+    "n_section": 3,
+    "header": "Cinemática Rectilínea: Distancia en MRUV",
+    "type": "formula",
+    "options": ["d", "=", "vo*t", "+", "0.5*a*t^2"],
+    "response": ["d", "=", "vo*t", "+", "0.5*a*t^2"]
+  },
+  {
+    "id": "phys-s03-l05",
+    "n_lesson": 5,
+    "n_section": 3,
+    "header": "Cinemática Rectilínea: Caída Libre",
+    "type": "question",
+    "options": ["La aceleración depende de la masa.", "La aceleración es la gravedad (g).", "La velocidad es constante.", "Sube indefinidamente."],
+    "response": ["La aceleración es la gravedad (g)."]
+  },
+  {
+    "id": "phys-s04-l01",
+    "n_lesson": 1,
+    "n_section": 4,
+    "header": "Cinemática Curvilínea: Movimiento Parabólico",
+    "type": "question",
+    "options": ["Compuesto por MRU horizontal y MRUV vertical.", "Solo MRU.", "Solo Caída Libre.", "Movimiento circular."],
+    "response": ["Compuesto por MRU horizontal y MRUV vertical."]
+  },
+  {
+    "id": "phys-s04-l02",
+    "n_lesson": 2,
+    "n_section": 4,
+    "header": "Cinemática Curvilínea: Altura Máxima",
+    "type": "formula",
+    "options": ["Hmax", "=", "(v*sinθ)^2", "/", "2g"],
+    "response": ["Hmax", "=", "(v*sinθ)^2", "/", "2g"]
+  },
+  {
+    "id": "phys-s04-l03",
+    "n_lesson": 3,
+    "n_section": 4,
+    "header": "Cinemática Curvilínea: MCU",
+    "type": "question",
+    "options": ["Velocidad angular variable.", "Velocidad angular constante.", "Aceleración tangencial existe.", "Radio variable."],
+    "response": ["Velocidad angular constante."]
+  },
+  {
+    "id": "phys-s04-l04",
+    "n_lesson": 4,
+    "n_section": 4,
+    "header": "Cinemática Curvilínea: Aceleración Centrípeta",
+    "type": "formula",
+    "options": ["ac", "=", "v^2", "/", "R"],
+    "response": ["ac", "=", "v^2", "/", "R"]
+  },
+  {
+    "id": "phys-s04-l05",
+    "n_lesson": 5,
+    "n_section": 4,
+    "header": "Cinemática Curvilínea: Frecuencia",
+    "type": "question",
+    "options": ["Tiempo por vuelta.", "Vueltas por unidad de tiempo.", "Distancia recorrida.", "Ángulo barrido."],
+    "response": ["Vueltas por unidad de tiempo."]
+  },
+  {
+    "id": "phys-s05-l01",
+    "n_lesson": 1,
+    "n_section": 5,
+    "header": "Estática: Primera Condición de Equilibrio",
+    "type": "question",
+    "options": ["Suma de momentos es cero.", "Suma de fuerzas es cero.", "Velocidad es infinita.", "Aceleración es máxima."],
+    "response": ["Suma de fuerzas es cero."]
+  },
+  {
+    "id": "phys-s05-l02",
+    "n_lesson": 2,
+    "n_section": 5,
+    "header": "Estática: Diagrama de Cuerpo Libre (DCL)",
+    "type": "question",
+    "options": ["Dibujo artístico del objeto.", "Aislamiento del cuerpo graficando fuerzas externas.", "Gráfico de velocidades.", "Esquema de trayectoria."],
+    "response": ["Aislamiento del cuerpo graficando fuerzas externas."]
+  },
+  {
+    "id": "phys-s05-l03",
+    "n_lesson": 3,
+    "n_section": 5,
+    "header": "Estática: Momento de una fuerza",
+    "type": "formula",
+    "options": ["M", "=", "F", "*", "d"],
+    "response": ["M", "=", "F", "*", "d"]
+  },
+  {
+    "id": "phys-s05-l04",
+    "n_lesson": 4,
+    "n_section": 5,
+    "header": "Estática: Segunda Condición de Equilibrio",
+    "type": "question",
+    "options": ["Suma de momentos es cero (no rota).", "Suma de fuerzas es cero.", "No hay fricción.", "El cuerpo no tiene masa."],
+    "response": ["Suma de momentos es cero (no rota)."]
+  },
+  {
+    "id": "phys-s05-l05",
+    "n_lesson": 5,
+    "n_section": 5,
+    "header": "Estática: Teorema de Varignon",
+    "type": "formula",
+    "options": ["Mr", "=", "Σ", "Mi"],
+    "response": ["Mr", "=", "Σ", "Mi"]
+  },
+  {
+    "id": "phys-s06-l01",
+    "n_lesson": 1,
+    "n_section": 6,
+    "header": "Dinámica: Segunda Ley de Newton",
+    "type": "question",
+    "options": ["Inercia.", "Acción y Reacción.", "Fuerza es masa por aceleración.", "Equilibrio."],
+    "response": ["Fuerza es masa por aceleración."]
+  },
+  {
+    "id": "phys-s06-l02",
+    "n_lesson": 2,
+    "n_section": 6,
+    "header": "Dinámica: Fórmula Fundamental",
+    "type": "formula",
+    "options": ["F", "=", "m", "*", "a"],
+    "response": ["F", "=", "m", "*", "a"]
+  },
+  {
+    "id": "phys-s06-l03",
+    "n_lesson": 3,
+    "n_section": 6,
+    "header": "Dinámica: Fuerza de Rozamiento",
+    "type": "question",
+    "options": ["Es a favor del movimiento.", "Se opone al deslizamiento relativo.", "No depende de la normal.", "Es constante siempre."],
+    "response": ["Se opone al deslizamiento relativo."]
+  },
+  {
+    "id": "phys-s06-l04",
+    "n_lesson": 4,
+    "n_section": 6,
+    "header": "Dinámica: Fricción Cinética",
+    "type": "formula",
+    "options": ["fk", "=", "uk", "*", "N"],
+    "response": ["fk", "=", "uk", "*", "N"]
+  },
+  {
+    "id": "phys-s06-l05",
+    "n_lesson": 5,
+    "n_section": 6,
+    "header": "Dinámica: Masa Inercial",
+    "type": "question",
+    "options": ["Peso del cuerpo.", "Resistencia al cambio de movimiento.", "Volumen del cuerpo.", "Fuerza de gravedad."],
+    "response": ["Resistencia al cambio de movimiento."]
+  },
+  {
+    "id": "phys-s07-l01",
+    "n_lesson": 1,
+    "n_section": 7,
+    "header": "Gravitación: Ley de Gravitación Universal",
+    "type": "question",
+    "options": ["Fuerza repulsiva.", "Fuerza atractiva proporcional a las masas.", "Solo en la Tierra.", "Depende del clima."],
+    "response": ["Fuerza atractiva proporcional a las masas."]
+  },
+  {
+    "id": "phys-s07-l02",
+    "n_lesson": 2,
+    "n_section": 7,
+    "header": "Gravitación: Fórmula de Fuerza",
+    "type": "formula",
+    "options": ["F", "=", "G", "*", "m1*m2", "/", "d^2"],
+    "response": ["F", "=", "G", "*", "m1*m2", "/", "d^2"]
+  },
+  {
+    "id": "phys-s07-l03",
+    "n_lesson": 3,
+    "n_section": 7,
+    "header": "Gravitación: Tercera Ley de Kepler",
+    "type": "question",
+    "options": ["Periodo al cuadrado es proporcional al radio al cubo.", "Órbitas circulares.", "Áreas iguales en tiempos iguales.", "La Tierra es plana."],
+    "response": ["Periodo al cuadrado es proporcional al radio al cubo."]
+  },
+  {
+    "id": "phys-s07-l04",
+    "n_lesson": 4,
+    "n_section": 7,
+    "header": "Gravitación: Aceleración de la Gravedad",
+    "type": "formula",
+    "options": ["g", "=", "G*M", "/", "R^2"],
+    "response": ["g", "=", "G*M", "/", "R^2"]
+  },
+  {
+    "id": "phys-s07-l05",
+    "n_lesson": 5,
+    "n_section": 7,
+    "header": "Gravitación: Primera Ley de Kepler",
+    "type": "question",
+    "options": ["Ley de las áreas.", "Ley de los periodos.", "Ley de las órbitas elípticas.", "Ley de inercia."],
+    "response": ["Ley de las órbitas elípticas."]
+  },
+  {
+    "id": "phys-s08-l01",
+    "n_lesson": 1,
+    "n_section": 8,
+    "header": "Trabajo y Potencia: Trabajo Mecánico",
+    "type": "question",
+    "options": ["Fuerza perpendicular al movimiento.", "Transferencia de movimiento mediante fuerza y distancia.", "Esfuerzo físico.", "Siempre cero."],
+    "response": ["Transferencia de movimiento mediante fuerza y distancia."]
+  },
+  {
+    "id": "phys-s08-l02",
+    "n_lesson": 2,
+    "n_section": 8,
+    "header": "Trabajo y Potencia: Fórmula de Trabajo",
+    "type": "formula",
+    "options": ["W", "=", "F", "*", "d", "*", "cosθ"],
+    "response": ["W", "=", "F", "*", "d", "*", "cosθ"]
+  },
+  {
+    "id": "phys-s08-l03",
+    "n_lesson": 3,
+    "n_section": 8,
+    "header": "Trabajo y Potencia: Potencia Mecánica",
+    "type": "question",
+    "options": ["Trabajo total.", "Rapidez con la que se hace trabajo.", "Fuerza total.", "Energía almacenada."],
+    "response": ["Rapidez con la que se hace trabajo."]
+  },
+  {
+    "id": "phys-s08-l04",
+    "n_lesson": 4,
+    "n_section": 8,
+    "header": "Trabajo y Potencia: Fórmula Potencia",
+    "type": "formula",
+    "options": ["P", "=", "W", "/", "t"],
+    "response": ["P", "=", "W", "/", "t"]
+  },
+  {
+    "id": "phys-s08-l05",
+    "n_lesson": 5,
+    "n_section": 8,
+    "header": "Trabajo y Potencia: Eficiencia",
+    "type": "question",
+    "options": ["P_útil / P_entregada.", "P_entregada / P_útil.", "P_perdida * P_útil.", "Siempre 100%."],
+    "response": ["P_útil / P_entregada."]
+  },
+  {
+    "id": "phys-s09-l01",
+    "n_lesson": 1,
+    "n_section": 9,
+    "header": "Energía Mecánica: Energía Cinética",
+    "type": "question",
+    "options": ["Energía de posición.", "Energía asociada al movimiento.", "Energía elástica.", "Energía térmica."],
+    "response": ["Energía asociada al movimiento."]
+  },
+  {
+    "id": "phys-s09-l02",
+    "n_lesson": 2,
+    "n_section": 9,
+    "header": "Energía Mecánica: Fórmula Energía Cinética",
+    "type": "formula",
+    "options": ["Ec", "=", "0.5", "*", "m", "*", "v^2"],
+    "response": ["Ec", "=", "0.5", "*", "m", "*", "v^2"]
+  },
+  {
+    "id": "phys-s09-l03",
+    "n_lesson": 3,
+    "n_section": 9,
+    "header": "Energía Mecánica: Energía Potencial Gravitatoria",
+    "type": "question",
+    "options": ["Depende de la velocidad.", "Depende de la altura y masa.", "Depende de la deformación.", "Es constante siempre."],
+    "response": ["Depende de la altura y masa."]
+  },
+  {
+    "id": "phys-s09-l04",
+    "n_lesson": 4,
+    "n_section": 9,
+    "header": "Energía Mecánica: Fórmula Energía Potencial",
+    "type": "formula",
+    "options": ["Epg", "=", "m", "*", "g", "*", "h"],
+    "response": ["Epg", "=", "m", "*", "g", "*", "h"]
+  },
+  {
+    "id": "phys-s09-l05",
+    "n_lesson": 5,
+    "n_section": 9,
+    "header": "Energía Mecánica: Conservación de Energía",
+    "type": "question",
+    "options": ["Solo si hay fricción.", "Si solo actúan fuerzas conservativas.", "Nunca se conserva.", "La energía se crea."],
+    "response": ["Si solo actúan fuerzas conservativas."]
+  },
+  {
+    "id": "phys-s10-l01",
+    "n_lesson": 1,
+    "n_section": 10,
+    "header": "Impulso y Cantidad de Movimiento: Impulso",
+    "type": "question",
+    "options": ["Fuerza por distancia.", "Fuerza aplicada durante un tiempo.", "Masa por aceleración.", "Velocidad constante."],
+    "response": ["Fuerza aplicada durante un tiempo."]
+  },
+  {
+    "id": "phys-s10-l02",
+    "n_lesson": 2,
+    "n_section": 10,
+    "header": "Impulso y Cantidad de Movimiento: Fórmula Impulso",
+    "type": "formula",
+    "options": ["I", "=", "F", "*", "t"],
+    "response": ["I", "=", "F", "*", "t"]
+  },
+  {
+    "id": "phys-s10-l03",
+    "n_lesson": 3,
+    "n_section": 10,
+    "header": "Impulso y Cantidad de Movimiento: Cantidad de Movimiento",
+    "type": "question",
+    "options": ["Vectorial: masa por velocidad.", "Escalar: masa por rapidez.", "Energía cinética.", "Fuerza de choque."],
+    "response": ["Vectorial: masa por velocidad."]
+  },
+  {
+    "id": "phys-s10-l04",
+    "n_lesson": 4,
+    "n_section": 10,
+    "header": "Impulso y Cantidad de Movimiento: Fórmula Momento",
+    "type": "formula",
+    "options": ["p", "=", "m", "*", "v"],
+    "response": ["p", "=", "m", "*", "v"]
+  },
+  {
+    "id": "phys-s10-l05",
+    "n_lesson": 5,
+    "n_section": 10,
+    "header": "Impulso y Cantidad de Movimiento: Teorema del Impulso",
+    "type": "question",
+    "options": ["Impulso es igual al cambio de cantidad de movimiento.", "Impulso es igual a trabajo.", "Impulso es cero.", "Momento se pierde."],
+    "response": ["Impulso es igual al cambio de cantidad de movimiento."]
+  },
+  {
+    "id": "phys-s11-l01",
+    "n_lesson": 1,
+    "n_section": 11,
+    "header": "Choques: Definición",
+    "type": "question",
+    "options": ["Interacción de larga duración.", "Interacción violenta y breve entre cuerpos.", "Movimiento armónico.", "Caída libre."],
+    "response": ["Interacción violenta y breve entre cuerpos."]
+  },
+  {
+    "id": "phys-s11-l02",
+    "n_lesson": 2,
+    "n_section": 11,
+    "header": "Choques: Coeficiente de Restitución (e)",
+    "type": "formula",
+    "options": ["e", "=", "-(v2-v1)", "/", "(u2-u1)"],
+    "response": ["e", "=", "-(v2-v1)", "/", "(u2-u1)"]
+  },
+  {
+    "id": "phys-s11-l03",
+    "n_lesson": 3,
+    "n_section": 11,
+    "header": "Choques: Choque Elástico",
+    "type": "question",
+    "options": ["Se pierde energía cinética.", "Se conserva la energía cinética y el momento.", "Los cuerpos quedan pegados.", "e = 0."],
+    "response": ["Se conserva la energía cinética y el momento."]
+  },
+  {
+    "id": "phys-s11-l04",
+    "n_lesson": 4,
+    "n_section": 11,
+    "header": "Choques: Choque Inelástico",
+    "type": "question",
+    "options": ["e = 1.", "Se conserva el momento, pero no la energía cinética.", "Se gana energía.", "No hay deformación."],
+    "response": ["Se conserva el momento, pero no la energía cinética."]
+  },
+  {
+    "id": "phys-s11-l05",
+    "n_lesson": 5,
+    "n_section": 11,
+    "header": "Choques: Choque Plástico",
+    "type": "question",
+    "options": ["Cuerpos rebotan perfectamente.", "Cuerpos quedan unidos tras el choque (e=0).", "Energía se conserva.", "Velocidades finales son distintas."],
+    "response": ["Cuerpos quedan unidos tras el choque (e=0)."]
+  },
+  {
+    "id": "phys-s12-l01",
+    "n_lesson": 1,
+    "n_section": 12,
+    "header": "Oscilaciones: Movimiento Armónico Simple (MAS)",
+    "type": "question",
+    "options": ["Movimiento aleatorio.", "Movimiento periódico producido por una fuerza recuperadora.", "Caída libre.", "Movimiento circular uniforme."],
+    "response": ["Movimiento periódico producido por una fuerza recuperadora."]
+  },
+  {
+    "id": "phys-s12-l02",
+    "n_lesson": 2,
+    "n_section": 12,
+    "header": "Oscilaciones: Frecuencia Angular",
+    "type": "formula",
+    "options": ["w", "=", "2π", "/", "T"],
+    "response": ["w", "=", "2π", "/", "T"]
+  },
+  {
+    "id": "phys-s12-l03",
+    "n_lesson": 3,
+    "n_section": 12,
+    "header": "Oscilaciones: Periodo Péndulo Simple",
+    "type": "formula",
+    "options": ["T", "=", "2π", "*", "√(L/g)"],
+    "response": ["T", "=", "2π", "*", "√(L/g)"]
+  },
+  {
+    "id": "phys-s12-l04",
+    "n_lesson": 4,
+    "n_section": 12,
+    "header": "Oscilaciones: Energía en MAS",
+    "type": "question",
+    "options": ["Solo cinética.", "Solo potencial elástica.", "Suma de cinética y potencial es constante.", "Se disipa siempre."],
+    "response": ["Suma de cinética y potencial es constante."]
+  },
+  {
+    "id": "phys-s12-l05",
+    "n_lesson": 5,
+    "n_section": 12,
+    "header": "Oscilaciones: Periodo Resorte",
+    "type": "formula",
+    "options": ["T", "=", "2π", "*", "√(m/k)"],
+    "response": ["T", "=", "2π", "*", "√(m/k)"]
+  },
+  {
+    "id": "phys-s13-l01",
+    "n_lesson": 1,
+    "n_section": 13,
+    "header": "Ondas Mecánicas: Definición",
+    "type": "question",
+    "options": ["Transporte de materia.", "Perturbación que transporta energía sin transportar materia.", "Corriente eléctrica.", "Viento."],
+    "response": ["Perturbación que transporta energía sin transportar materia."]
+  },
+  {
+    "id": "phys-s13-l02",
+    "n_lesson": 2,
+    "n_section": 13,
+    "header": "Ondas Mecánicas: Ecuación de Velocidad",
+    "type": "formula",
+    "options": ["v", "=", "λ", "*", "f"],
+    "response": ["v", "=", "λ", "*", "f"]
+  },
+  {
+    "id": "phys-s13-l03",
+    "n_lesson": 3,
+    "n_section": 13,
+    "header": "Ondas Mecánicas: Ondas Transversales",
+    "type": "question",
+    "options": ["Partículas vibran paralelas a la propagación.", "Partículas vibran perpendiculares a la propagación.", "Es sonido.", "No se propagan en sólidos."],
+    "response": ["Partículas vibran perpendiculares a la propagación."]
+  },
+  {
+    "id": "phys-s13-l04",
+    "n_lesson": 4,
+    "n_section": 13,
+    "header": "Ondas Mecánicas: Ondas Longitudinales",
+    "type": "question",
+    "options": ["Partículas vibran paralelas a la propagación (ej. sonido).", "Son ondas de luz.", "Partículas vibran perpendicularmente.", "Solo en vacío."],
+    "response": ["Partículas vibran paralelas a la propagación (ej. sonido)."]
+  },
+  {
+    "id": "phys-s13-l05",
+    "n_lesson": 5,
+    "n_section": 13,
+    "header": "Ondas Mecánicas: Periodo y Frecuencia",
+    "type": "formula",
+    "options": ["T", "=", "1", "/", "f"],
+    "response": ["T", "=", "1", "/", "f"]
+  },
+  {
+    "id": "phys-s14-l01",
+    "n_lesson": 1,
+    "n_section": 14,
+    "header": "Mecánica de Fluidos I: Densidad",
+    "type": "question",
+    "options": ["Masa por volumen.", "Masa entre volumen.", "Peso entre volumen.", "Volumen entre masa."],
+    "response": ["Masa entre volumen."]
+  },
+  {
+    "id": "phys-s14-l02",
+    "n_lesson": 2,
+    "n_section": 14,
+    "header": "Mecánica de Fluidos I: Fórmula Densidad",
+    "type": "formula",
+    "options": ["ρ", "=", "m", "/", "V"],
+    "response": ["ρ", "=", "m", "/", "V"]
+  },
+  {
+    "id": "phys-s14-l03",
+    "n_lesson": 3,
+    "n_section": 14,
+    "header": "Mecánica de Fluidos I: Presión",
+    "type": "question",
+    "options": ["Fuerza total.", "Fuerza normal por unidad de área.", "Masa por área.", "Empuje."],
+    "response": ["Fuerza normal por unidad de área."]
+  },
+  {
+    "id": "phys-s14-l04",
+    "n_lesson": 4,
+    "n_section": 14,
+    "header": "Mecánica de Fluidos I: Fórmula Presión",
+    "type": "formula",
+    "options": ["P", "=", "F", "/", "A"],
+    "response": ["P", "=", "F", "/", "A"]
+  },
+  {
+    "id": "phys-s14-l05",
+    "n_lesson": 5,
+    "n_section": 14,
+    "header": "Mecánica de Fluidos I: Presión Hidrostática",
+    "type": "formula",
+    "options": ["Ph", "=", "ρ", "*", "g", "*", "h"],
+    "response": ["Ph", "=", "ρ", "*", "g", "*", "h"]
+  },
+  {
+    "id": "phys-s15-l01",
+    "n_lesson": 1,
+    "n_section": 15,
+    "header": "Mecánica de Fluidos II: Principio de Arquímedes",
+    "type": "question",
+    "options": ["Todo cuerpo sumergido recibe un empuje igual al peso del fluido desalojado.", "La presión es igual en todas direcciones.", "La velocidad aumenta si el área disminuye.", "Los fluidos no pesan."],
+    "response": ["Todo cuerpo sumergido recibe un empuje igual al peso del fluido desalojado."]
+  },
+  {
+    "id": "phys-s15-l02",
+    "n_lesson": 2,
+    "n_section": 15,
+    "header": "Mecánica de Fluidos II: Fórmula Empuje",
+    "type": "formula",
+    "options": ["E", "=", "ρ_liq", "*", "g", "*", "V_sum"],
+    "response": ["E", "=", "ρ_liq", "*", "g", "*", "V_sum"]
+  },
+  {
+    "id": "phys-s15-l03",
+    "n_lesson": 3,
+    "n_section": 15,
+    "header": "Mecánica de Fluidos II: Principio de Pascal",
+    "type": "question",
+    "options": ["La presión en un fluido confinado se transmite igual en todas direcciones.", "El empuje es vertical hacia arriba.", "La densidad varía con la altura.", "Solo para gases."],
+    "response": ["La presión en un fluido confinado se transmite igual en todas direcciones."]
+  },
+  {
+    "id": "phys-s15-l04",
+    "n_lesson": 4,
+    "n_section": 15,
+    "header": "Mecánica de Fluidos II: Prensa Hidráulica",
+    "type": "formula",
+    "options": ["F1", "/", "A1", "=", "F2", "/", "A2"],
+    "response": ["F1", "/", "A1", "=", "F2", "/", "A2"]
+  },
+  {
+    "id": "phys-s15-l05",
+    "n_lesson": 5,
+    "n_section": 15,
+    "header": "Mecánica de Fluidos II: Ecuación de Continuidad",
+    "type": "formula",
+    "options": ["A1", "*", "v1", "=", "A2", "*", "v2"],
+    "response": ["A1", "*", "v1", "=", "A2", "*", "v2"]
+  },
+  {
+    "id": "phys-s16-l01",
+    "n_lesson": 1,
+    "n_section": 16,
+    "header": "Temperatura y Dilatación: Temperatura",
+    "type": "question",
+    "options": ["Es calor acumulado.", "Medida de la energía cinética promedio molecular.", "Medida de masa.", "Es frío."],
+    "response": ["Medida de la energía cinética promedio molecular."]
+  },
+  {
+    "id": "phys-s16-l02",
+    "n_lesson": 2,
+    "n_section": 16,
+    "header": "Temperatura y Dilatación: Conversión C a K",
+    "type": "formula",
+    "options": ["K", "=", "C", "+", "273"],
+    "response": ["K", "=", "C", "+", "273"]
+  },
+  {
+    "id": "phys-s16-l03",
+    "n_lesson": 3,
+    "n_section": 16,
+    "header": "Temperatura y Dilatación: Dilatación Lineal",
+    "type": "question",
+    "options": ["Aumento de longitud por aumento de temperatura.", "Aumento de masa.", "Cambio de estado.", "Reducción de volumen."],
+    "response": ["Aumento de longitud por aumento de temperatura."]
+  },
+  {
+    "id": "phys-s16-l04",
+    "n_lesson": 4,
+    "n_section": 16,
+    "header": "Temperatura y Dilatación: Fórmula Dilatación Lineal",
+    "type": "formula",
+    "options": ["ΔL", "=", "Lo", "*", "α", "*", "ΔT"],
+    "response": ["ΔL", "=", "Lo", "*", "α", "*", "ΔT"]
+  },
+  {
+    "id": "phys-s16-l05",
+    "n_lesson": 5,
+    "n_section": 16,
+    "header": "Temperatura y Dilatación: Dilatación Volumétrica",
+    "type": "question",
+    "options": ["Coeficiente gamma = 3 * alfa.", "Coeficiente es igual a alfa.", "No ocurre en sólidos.", "Solo en gases."],
+    "response": ["Coeficiente gamma = 3 * alfa."]
+  },
+  {
+    "id": "phys-s17-l01",
+    "n_lesson": 1,
+    "n_section": 17,
+    "header": "Calorimetría: Calor",
+    "type": "question",
+    "options": ["Es temperatura.", "Energía en tránsito debido a diferencia de temperaturas.", "Fluido invisible.", "Energía interna."],
+    "response": ["Energía en tránsito debido a diferencia de temperaturas."]
+  },
+  {
+    "id": "phys-s17-l02",
+    "n_lesson": 2,
+    "n_section": 17,
+    "header": "Calorimetría: Calor Sensible",
+    "type": "formula",
+    "options": ["Q", "=", "m", "*", "Ce", "*", "ΔT"],
+    "response": ["Q", "=", "m", "*", "Ce", "*", "ΔT"]
+  },
+  {
+    "id": "phys-s17-l03",
+    "n_lesson": 3,
+    "n_section": 17,
+    "header": "Calorimetría: Equivalente en Agua",
+    "type": "question",
+    "options": ["Masa de agua que absorbe igual calor que un cuerpo.", "Volumen de agua.", "Densidad del agua.", "Temperatura del agua."],
+    "response": ["Masa de agua que absorbe igual calor que un cuerpo."]
+  },
+  {
+    "id": "phys-s17-l04",
+    "n_lesson": 4,
+    "n_section": 17,
+    "header": "Calorimetría: Calor Latente (Cambio de Fase)",
+    "type": "formula",
+    "options": ["Q", "=", "m", "*", "L"],
+    "response": ["Q", "=", "m", "*", "L"]
+  },
+  {
+    "id": "phys-s17-l05",
+    "n_lesson": 5,
+    "n_section": 17,
+    "header": "Calorimetría: Equilibrio Térmico",
+    "type": "question",
+    "options": ["Calor ganado = Calor perdido.", "Temperaturas se suman.", "Energía se pierde.", "El frío gana."],
+    "response": ["Calor ganado = Calor perdido."]
+  },
+  {
+    "id": "phys-s18-l01",
+    "n_lesson": 1,
+    "n_section": 18,
+    "header": "Gases Ideales: Ecuación de Estado",
+    "type": "question",
+    "options": ["PV = nRT", "F = ma", "E = mc^2", "V = IR"],
+    "response": ["PV = nRT"]
+  },
+  {
+    "id": "phys-s18-l02",
+    "n_lesson": 2,
+    "n_section": 18,
+    "header": "Gases Ideales: Fórmula General",
+    "type": "formula",
+    "options": ["P", "*", "V", "=", "n", "*", "R", "*", "T"],
+    "response": ["P", "*", "V", "=", "n", "*", "R", "*", "T"]
+  },
+  {
+    "id": "phys-s18-l03",
+    "n_lesson": 3,
+    "n_section": 18,
+    "header": "Gases Ideales: Proceso Isotérmico",
+    "type": "question",
+    "options": ["Temperatura constante (Ley de Boyle).", "Presión constante.", "Volumen constante.", "Adiabático."],
+    "response": ["Temperatura constante (Ley de Boyle)."]
+  },
+  {
+    "id": "phys-s18-l04",
+    "n_lesson": 4,
+    "n_section": 18,
+    "header": "Gases Ideales: Ley de Boyle",
+    "type": "formula",
+    "options": ["P1", "*", "V1", "=", "P2", "*", "V2"],
+    "response": ["P1", "*", "V1", "=", "P2", "*", "V2"]
+  },
+  {
+    "id": "phys-s18-l05",
+    "n_lesson": 5,
+    "n_section": 18,
+    "header": "Gases Ideales: Proceso Isobárico",
+    "type": "question",
+    "options": ["Presión constante (Ley de Charles).", "Temperatura constante.", "Volumen constante.", "Sin calor."],
+    "response": ["Presión constante (Ley de Charles)."]
+  },
+  {
+    "id": "phys-s19-l01",
+    "n_lesson": 1,
+    "n_section": 19,
+    "header": "Termodinámica I: Primera Ley",
+    "type": "question",
+    "options": ["Conservación de la energía (Q = ΔU + W).", "Aumento de entropía.", "Cero absoluto.", "Máquinas térmicas."],
+    "response": ["Conservación de la energía (Q = ΔU + W)."]
+  },
+  {
+    "id": "phys-s19-l02",
+    "n_lesson": 2,
+    "n_section": 19,
+    "header": "Termodinámica I: Fórmula 1ra Ley",
+    "type": "formula",
+    "options": ["Q", "=", "ΔU", "+", "W"],
+    "response": ["Q", "=", "ΔU", "+", "W"]
+  },
+  {
+    "id": "phys-s19-l03",
+    "n_lesson": 3,
+    "n_section": 19,
+    "header": "Termodinámica I: Trabajo en Proceso Isobárico",
+    "type": "formula",
+    "options": ["W", "=", "P", "*", "(Vf-Vi)"],
+    "response": ["W", "=", "P", "*", "(Vf-Vi)"]
+  },
+  {
+    "id": "phys-s19-l04",
+    "n_lesson": 4,
+    "n_section": 19,
+    "header": "Termodinámica I: Proceso Adiabático",
+    "type": "question",
+    "options": ["No hay transferencia de calor (Q=0).", "Temperatura constante.", "Presión constante.", "Volumen constante."],
+    "response": ["No hay transferencia de calor (Q=0)."]
+  },
+  {
+    "id": "phys-s19-l05",
+    "n_lesson": 5,
+    "n_section": 19,
+    "header": "Termodinámica I: Proceso Isocórico",
+    "type": "question",
+    "options": ["Volumen constante, Trabajo es cero.", "Presión constante.", "Temperatura constante.", "Calor es cero."],
+    "response": ["Volumen constante, Trabajo es cero."]
+  },
+  {
+    "id": "phys-s20-l01",
+    "n_lesson": 1,
+    "n_section": 20,
+    "header": "Termodinámica II: Segunda Ley",
+    "type": "question",
+    "options": ["El calor fluye espontáneamente de caliente a frío.", "La energía se conserva.", "Todo el calor se convierte en trabajo.", "Cero absoluto es alcanzable."],
+    "response": ["El calor fluye espontáneamente de caliente a frío."]
+  },
+  {
+    "id": "phys-s20-l02",
+    "n_lesson": 2,
+    "n_section": 20,
+    "header": "Termodinámica II: Eficiencia Máquina Térmica",
+    "type": "formula",
+    "options": ["n", "=", "W_neto", "/", "Q_suministrado"],
+    "response": ["n", "=", "W_neto", "/", "Q_suministrado"]
+  },
+  {
+    "id": "phys-s20-l03",
+    "n_lesson": 3,
+    "n_section": 20,
+    "header": "Termodinámica II: Ciclo de Carnot",
+    "type": "question",
+    "options": ["Ciclo ideal de máxima eficiencia.", "Ciclo de gasolina.", "Ciclo diesel.", "Ciclo de refrigeración."],
+    "response": ["Ciclo ideal de máxima eficiencia."]
+  },
+  {
+    "id": "phys-s20-l04",
+    "n_lesson": 4,
+    "n_section": 20,
+    "header": "Termodinámica II: Eficiencia Carnot",
+    "type": "formula",
+    "options": ["n", "=", "1", "-", "T_baja", "/", "T_alta"],
+    "response": ["n", "=", "1", "-", "T_baja", "/", "T_alta"]
+  },
+  {
+    "id": "phys-s20-l05",
+    "n_lesson": 5,
+    "n_section": 20,
+    "header": "Termodinámica II: Entropía",
+    "type": "question",
+    "options": ["Medida del desorden molecular.", "Energía interna.", "Temperatura.", "Presión."],
+    "response": ["Medida del desorden molecular."]
+  },
+  {
+    "id": "phys-s21-l01",
+    "n_lesson": 1,
+    "n_section": 21,
+    "header": "Electrostática I: Carga Eléctrica",
+    "type": "question",
+    "options": ["Propiedad intrínseca (electrones/protones).", "Flujo de corriente.", "Voltaje.", "Potencia."],
+    "response": ["Propiedad intrínseca (electrones/protones)."]
+  },
+  {
+    "id": "phys-s21-l02",
+    "n_lesson": 2,
+    "n_section": 21,
+    "header": "Electrostática I: Cuantización de la Carga",
+    "type": "formula",
+    "options": ["Q", "=", "n", "*", "e-"],
+    "response": ["Q", "=", "n", "*", "e-"]
+  },
+  {
+    "id": "phys-s21-l03",
+    "n_lesson": 3,
+    "n_section": 21,
+    "header": "Electrostática I: Ley de Coulomb",
+    "type": "question",
+    "options": ["Fuerza entre cargas puntuales en reposo.", "Fuerza magnética.", "Corriente eléctrica.", "Ley de Ohm."],
+    "response": ["Fuerza entre cargas puntuales en reposo."]
+  },
+  {
+    "id": "phys-s21-l04",
+    "n_lesson": 4,
+    "n_section": 21,
+    "header": "Electrostática I: Fórmula Fuerza Eléctrica",
+    "type": "formula",
+    "options": ["F", "=", "k", "*", "|q1*q2|", "/", "d^2"],
+    "response": ["F", "=", "k", "*", "|q1*q2|", "/", "d^2"]
+  },
+  {
+    "id": "phys-s21-l05",
+    "n_lesson": 5,
+    "n_section": 21,
+    "header": "Electrostática I: Tipos de Carga",
+    "type": "question",
+    "options": ["Positiva y Negativa.", "Norte y Sur.", "Alta y Baja.", "Roja y Azul."],
+    "response": ["Positiva y Negativa."]
+  },
+  {
+    "id": "phys-s22-l01",
+    "n_lesson": 1,
+    "n_section": 22,
+    "header": "Electrostática II: Campo Eléctrico",
+    "type": "question",
+    "options": ["Región donde una carga experimenta fuerza.", "Campo magnético.", "Voltaje.", "Corriente."],
+    "response": ["Región donde una carga experimenta fuerza."]
+  },
+  {
+    "id": "phys-s22-l02",
+    "n_lesson": 2,
+    "n_section": 22,
+    "header": "Electrostática II: Intensidad de Campo (E)",
+    "type": "formula",
+    "options": ["E", "=", "F", "/", "q"],
+    "response": ["E", "=", "F", "/", "q"]
+  },
+  {
+    "id": "phys-s22-l03",
+    "n_lesson": 3,
+    "n_section": 22,
+    "header": "Electrostática II: Campo Carga Puntual",
+    "type": "formula",
+    "options": ["E", "=", "k", "*", "|Q|", "/", "d^2"],
+    "response": ["E", "=", "k", "*", "|Q|", "/", "d^2"]
+  },
+  {
+    "id": "phys-s22-l04",
+    "n_lesson": 4,
+    "n_section": 22,
+    "header": "Electrostática II: Líneas de Fuerza",
+    "type": "question",
+    "options": ["Salen de cargas positivas, entran a negativas.", "Salen de negativas.", "Son cerradas.", "Se cruzan entre sí."],
+    "response": ["Salen de cargas positivas, entran a negativas."]
+  },
+  {
+    "id": "phys-s22-l05",
+    "n_lesson": 5,
+    "n_section": 22,
+    "header": "Electrostática II: Potencial Eléctrico",
+    "type": "question",
+    "options": ["Trabajo por unidad de carga (Escalar).", "Vectorial.", "Fuerza.", "Campo."],
+    "response": ["Trabajo por unidad de carga (Escalar)."]
+  },
+  {
+    "id": "phys-s23-l01",
+    "n_lesson": 1,
+    "n_section": 23,
+    "header": "Capacidad Eléctrica: Condensador",
+    "type": "question",
+    "options": ["Dispositivo que almacena carga y energía.", "Resistencia.", "Batería.", "Interruptor."],
+    "response": ["Dispositivo que almacena carga y energía."]
+  },
+  {
+    "id": "phys-s23-l02",
+    "n_lesson": 2,
+    "n_section": 23,
+    "header": "Capacidad Eléctrica: Definición Capacidad",
+    "type": "formula",
+    "options": ["C", "=", "Q", "/", "V"],
+    "response": ["C", "=", "Q", "/", "V"]
+  },
+  {
+    "id": "phys-s23-l03",
+    "n_lesson": 3,
+    "n_section": 23,
+    "header": "Capacidad Eléctrica: Unidades",
+    "type": "question",
+    "options": ["Faradio (F).", "Ohm (Ω).", "Ampere (A).", "Volt (V)."],
+    "response": ["Faradio (F)."]
+  },
+  {
+    "id": "phys-s23-l04",
+    "n_lesson": 4,
+    "n_section": 23,
+    "header": "Capacidad Eléctrica: Condensador Plano",
+    "type": "formula",
+    "options": ["C", "=", "εo", "*", "A", "/", "d"],
+    "response": ["C", "=", "εo", "*", "A", "/", "d"]
+  },
+  {
+    "id": "phys-s23-l05",
+    "n_lesson": 5,
+    "n_section": 23,
+    "header": "Capacidad Eléctrica: Energía Almacenada",
+    "type": "formula",
+    "options": ["U", "=", "0.5", "*", "C", "*", "V^2"],
+    "response": ["U", "=", "0.5", "*", "C", "*", "V^2"]
+  },
+  {
+    "id": "phys-s24-l01",
+    "n_lesson": 1,
+    "n_section": 24,
+    "header": "Electrodinámica I: Corriente Eléctrica",
+    "type": "question",
+    "options": ["Flujo ordenado de portadores de carga.", "Cargas estáticas.", "Campo magnético.", "Protones libres."],
+    "response": ["Flujo ordenado de portadores de carga."]
+  },
+  {
+    "id": "phys-s24-l02",
+    "n_lesson": 2,
+    "n_section": 24,
+    "header": "Electrodinámica I: Intensidad de Corriente",
+    "type": "formula",
+    "options": ["I", "=", "q", "/", "t"],
+    "response": ["I", "=", "q", "/", "t"]
+  },
+  {
+    "id": "phys-s24-l03",
+    "n_lesson": 3,
+    "n_section": 24,
+    "header": "Electrodinámica I: Ley de Ohm",
+    "type": "question",
+    "options": ["V = I * R", "V = I / R", "R = V * I", "I = V * R"],
+    "response": ["V = I * R"]
+  },
+  {
+    "id": "phys-s24-l04",
+    "n_lesson": 4,
+    "n_section": 24,
+    "header": "Electrodinámica I: Fórmula Resistencia",
+    "type": "formula",
+    "options": ["R", "=", "ρ", "*", "L", "/", "A"],
+    "response": ["R", "=", "ρ", "*", "L", "/", "A"]
+  },
+  {
+    "id": "phys-s24-l05",
+    "n_lesson": 5,
+    "n_section": 24,
+    "header": "Electrodinámica I: Asociación Resistencias",
+    "type": "question",
+    "options": ["Serie (se suman) y Paralelo (inversos).", "Serie (inversos).", "Paralelo (se suman).", "Mixto (se restan)."],
+    "response": ["Serie (se suman) y Paralelo (inversos)."]
+  },
+  {
+    "id": "phys-s25-l01",
+    "n_lesson": 1,
+    "n_section": 25,
+    "header": "Electrodinámica II: Leyes de Kirchhoff (Nodos)",
+    "type": "question",
+    "options": ["Σ I_entra = Σ I_sale (Conservación carga).", "Voltaje es cero.", "Potencia es máxima.", "Resistencia nula."],
+    "response": ["Σ I_entra = Σ I_sale (Conservación carga)."]
+  },
+  {
+    "id": "phys-s25-l02",
+    "n_lesson": 2,
+    "n_section": 25,
+    "header": "Electrodinámica II: Leyes de Kirchhoff (Mallas)",
+    "type": "question",
+    "options": ["Σ V = 0 en circuito cerrado (Conservación energía).", "Corriente es cero.", "Resistencia infinita.", "Campo magnético."],
+    "response": ["Σ V = 0 en circuito cerrado (Conservación energía)."]
+  },
+  {
+    "id": "phys-s25-l03",
+    "n_lesson": 3,
+    "n_section": 25,
+    "header": "Electrodinámica II: Potencia Eléctrica",
+    "type": "formula",
+    "options": ["P", "=", "V", "*", "I"],
+    "response": ["P", "=", "V", "*", "I"]
+  },
+  {
+    "id": "phys-s25-l04",
+    "n_lesson": 4,
+    "n_section": 25,
+    "header": "Electrodinámica II: Efecto Joule",
+    "type": "question",
+    "options": ["Disipación de calor al pasar corriente.", "Generación de luz.", "Enfriamiento.", "Magnetismo."],
+    "response": ["Disipación de calor al pasar corriente."]
+  },
+  {
+    "id": "phys-s25-l05",
+    "n_lesson": 5,
+    "n_section": 25,
+    "header": "Electrodinámica II: Energía Disipada",
+    "type": "formula",
+    "options": ["E", "=", "I^2", "*", "R", "*", "t"],
+    "response": ["E", "=", "I^2", "*", "R", "*", "t"]
+  },
+  {
+    "id": "phys-s26-l01",
+    "n_lesson": 1,
+    "n_section": 26,
+    "header": "Electromagnetismo I: Experimento de Oersted",
+    "type": "question",
+    "options": ["Corriente eléctrica genera campo magnético.", "Campo magnético genera corriente.", "Imanes atraen hierro.", "Luz es onda."],
+    "response": ["Corriente eléctrica genera campo magnético."]
+  },
+  {
+    "id": "phys-s26-l02",
+    "n_lesson": 2,
+    "n_section": 26,
+    "header": "Electromagnetismo I: Campo B Conductor Recto",
+    "type": "formula",
+    "options": ["B", "=", "μo*I", "/", "2πd"],
+    "response": ["B", "=", "μo*I", "/", "2πd"]
+  },
+  {
+    "id": "phys-s26-l03",
+    "n_lesson": 3,
+    "n_section": 26,
+    "header": "Electromagnetismo I: Regla de la Mano Derecha",
+    "type": "question",
+    "options": ["Determina sentido del campo magnético.", "Determina fuerza eléctrica.", "Mide voltaje.", "Calcula resistencia."],
+    "response": ["Determina sentido del campo magnético."]
+  },
+  {
+    "id": "phys-s26-l04",
+    "n_lesson": 4,
+    "n_section": 26,
+    "header": "Electromagnetismo I: Campo en Espira Circular",
+    "type": "formula",
+    "options": ["B", "=", "μo*I", "/", "2R"],
+    "response": ["B", "=", "μo*I", "/", "2R"]
+  },
+  {
+    "id": "phys-s26-l05",
+    "n_lesson": 5,
+    "n_section": 26,
+    "header": "Electromagnetismo I: Solenoide",
+    "type": "question",
+    "options": ["Bobina larga, campo uniforme en el interior.", "Imán natural.", "Resistencia.", "Condensador."],
+    "response": ["Bobina larga, campo uniforme en el interior."]
+  },
+  {
+    "id": "phys-s27-l01",
+    "n_lesson": 1,
+    "n_section": 27,
+    "header": "Electromagnetismo II: Fuerza Magnética (Lorentz)",
+    "type": "question",
+    "options": ["Fuerza sobre carga móvil en campo B.", "Fuerza sobre carga quieta.", "Fuerza eléctrica.", "Fuerza de gravedad."],
+    "response": ["Fuerza sobre carga móvil en campo B."]
+  },
+  {
+    "id": "phys-s27-l02",
+    "n_lesson": 2,
+    "n_section": 27,
+    "header": "Electromagnetismo II: Fórmula Fuerza Lorentz",
+    "type": "formula",
+    "options": ["F", "=", "q", "*", "v", "*", "B", "*", "sinθ"],
+    "response": ["F", "=", "q", "*", "v", "*", "B", "*", "sinθ"]
+  },
+  {
+    "id": "phys-s27-l03",
+    "n_lesson": 3,
+    "n_section": 27,
+    "header": "Electromagnetismo II: Fuerza sobre Conductor",
+    "type": "question",
+    "options": ["F = B*I*L*sinθ (Ley de Laplace).", "F = m*a", "F = q*E", "F = k*x"],
+    "response": ["F = B*I*L*sinθ (Ley de Laplace)."]
+  },
+  {
+    "id": "phys-s27-l04",
+    "n_lesson": 4,
+    "n_section": 27,
+    "header": "Electromagnetismo II: Fórmula Fuerza Conductor",
+    "type": "formula",
+    "options": ["F", "=", "B", "*", "I", "*", "L", "*", "sinθ"],
+    "response": ["F", "=", "B", "*", "I", "*", "L", "*", "sinθ"]
+  },
+  {
+    "id": "phys-s27-l05",
+    "n_lesson": 5,
+    "n_section": 27,
+    "header": "Electromagnetismo II: Trayectoria Carga",
+    "type": "question",
+    "options": ["Circular si v es perpendicular a B.", "Rectilínea siempre.", "Parabólica.", "Elíptica."],
+    "response": ["Circular si v es perpendicular a B."]
+  },
+  {
+    "id": "phys-s28-l01",
+    "n_lesson": 1,
+    "n_section": 28,
+    "header": "Electromagnetismo III: Flujo Magnético",
+    "type": "question",
+    "options": ["Cantidad de líneas B que atraviesan un área.", "Intensidad de corriente.", "Voltaje inducido.", "Resistencia."],
+    "response": ["Cantidad de líneas B que atraviesan un área."]
+  },
+  {
+    "id": "phys-s28-l02",
+    "n_lesson": 2,
+    "n_section": 28,
+    "header": "Electromagnetismo III: Fórmula Flujo",
+    "type": "formula",
+    "options": ["Φ", "=", "B", "*", "A", "*", "cosθ"],
+    "response": ["Φ", "=", "B", "*", "A", "*", "cosθ"]
+  },
+  {
+    "id": "phys-s28-l03",
+    "n_lesson": 3,
+    "n_section": 28,
+    "header": "Electromagnetismo III: Ley de Faraday",
+    "type": "question",
+    "options": ["Cambio de flujo induce FEM.", "Corriente crea campo.", "Carga se conserva.", "Energía es masa."],
+    "response": ["Cambio de flujo induce FEM."]
+  },
+  {
+    "id": "phys-s28-l04",
+    "n_lesson": 4,
+    "n_section": 28,
+    "header": "Electromagnetismo III: Fórmula Faraday",
+    "type": "formula",
+    "options": ["ε", "=", "-N", "*", "ΔΦ", "/", "Δt"],
+    "response": ["ε", "=", "-N", "*", "ΔΦ", "/", "Δt"]
+  },
+  {
+    "id": "phys-s28-l05",
+    "n_lesson": 5,
+    "n_section": 28,
+    "header": "Electromagnetismo III: Ley de Lenz",
+    "type": "question",
+    "options": ["Corriente inducida se opone al cambio de flujo.", "Corriente favorece el cambio.", "No hay oposición.", "Es ley de Ohm."],
+    "response": ["Corriente inducida se opone al cambio de flujo."]
+  },
+  {
+    "id": "phys-s29-l01",
+    "n_lesson": 1,
+    "n_section": 29,
+    "header": "Óptica I: Naturaleza de la Luz",
+    "type": "question",
+    "options": ["Dual: Onda y Partícula.", "Solo onda.", "Solo partícula.", "Fluido."],
+    "response": ["Dual: Onda y Partícula."]
+  },
+  {
+    "id": "phys-s29-l02",
+    "n_lesson": 2,
+    "n_section": 29,
+    "header": "Óptica I: Ley de Reflexión",
+    "type": "question",
+    "options": ["Ángulo incidencia = Ángulo reflexión.", "Ángulo incidencia > Ángulo reflexión.", "No hay rebote.", "Luz se absorbe."],
+    "response": ["Ángulo incidencia = Ángulo reflexión."]
+  },
+  {
+    "id": "phys-s29-l03",
+    "n_lesson": 3,
+    "n_section": 29,
+    "header": "Óptica I: Espejo Plano",
+    "type": "question",
+    "options": ["Imagen virtual, derecha y mismo tamaño.", "Imagen real e invertida.", "Imagen aumentada.", "No forma imagen."],
+    "response": ["Imagen virtual, derecha y mismo tamaño."]
+  },
+  {
+    "id": "phys-s29-l04",
+    "n_lesson": 4,
+    "n_section": 29,
+    "header": "Óptica I: Ecuación de Descartes (Espejos)",
+    "type": "formula",
+    "options": ["1/f", "=", "1/i", "+", "1/o"],
+    "response": ["1/f", "=", "1/i", "+", "1/o"]
+  },
+  {
+    "id": "phys-s29-l05",
+    "n_lesson": 5,
+    "n_section": 29,
+    "header": "Óptica I: Foco Espejo Esférico",
+    "type": "formula",
+    "options": ["f", "=", "R", "/", "2"],
+    "response": ["f", "=", "R", "/", "2"]
+  },
+  {
+    "id": "phys-s30-l01",
+    "n_lesson": 1,
+    "n_section": 30,
+    "header": "Óptica II: Refracción",
+    "type": "question",
+    "options": ["Cambio de dirección al pasar de un medio a otro.", "Rebote de la luz.", "Difracción.", "Interferencia."],
+    "response": ["Cambio de dirección al pasar de un medio a otro."]
+  },
+  {
+    "id": "phys-s30-l02",
+    "n_lesson": 2,
+    "n_section": 30,
+    "header": "Óptica II: Índice de Refracción",
+    "type": "formula",
+    "options": ["n", "=", "c", "/", "v"],
+    "response": ["n", "=", "c", "/", "v"]
+  },
+  {
+    "id": "phys-s30-l03",
+    "n_lesson": 3,
+    "n_section": 30,
+    "header": "Óptica II: Ley de Snell",
+    "type": "formula",
+    "options": ["n1*sin1", "=", "n2*sin2"],
+    "response": ["n1*sin1", "=", "n2*sin2"]
+  },
+  {
+    "id": "phys-s30-l04",
+    "n_lesson": 4,
+    "n_section": 30,
+    "header": "Óptica II: Lentes Convergentes",
+    "type": "question",
+    "options": ["Concentran la luz (Lupa).", "Dispersan la luz.", "Son espejos.", "Son opacos."],
+    "response": ["Concentran la luz (Lupa)."]
+  },
+  {
+    "id": "phys-s30-l05",
+    "n_lesson": 5,
+    "n_section": 30,
+    "header": "Óptica II: Potencia de Lente",
+    "type": "formula",
+    "options": ["P", "=", "1", "/", "f"],
+    "response": ["P", "=", "1", "/", "f"]
+  },
+  {
+    "id": "phys-s31-l01",
+    "n_lesson": 1,
+    "n_section": 31,
+    "header": "Física Moderna I: Efecto Fotoeléctrico",
+    "type": "question",
+    "options": ["Emisión de electrones por luz.", "Emisión de luz por calor.", "Fisión nuclear.", "Gravedad."],
+    "response": ["Emisión de electrones por luz."]
+  },
+  {
+    "id": "phys-s31-l02",
+    "n_lesson": 2,
+    "n_section": 31,
+    "header": "Física Moderna I: Energía del Fotón",
+    "type": "formula",
+    "options": ["E", "=", "h", "*", "f"],
+    "response": ["E", "=", "h", "*", "f"]
+  },
+  {
+    "id": "phys-s31-l03",
+    "n_lesson": 3,
+    "n_section": 31,
+    "header": "Física Moderna I: Cuanto de Energía",
+    "type": "question",
+    "options": ["Paquete discreto de energía.", "Energía continua.", "Masa infinita.", "Onda pura."],
+    "response": ["Paquete discreto de energía."]
+  },
+  {
+    "id": "phys-s31-l04",
+    "n_lesson": 4,
+    "n_section": 31,
+    "header": "Física Moderna I: Función Trabajo",
+    "type": "formula",
+    "options": ["Kmax", "=", "hf", "-", "Φ"],
+    "response": ["Kmax", "=", "hf", "-", "Φ"]
+  },
+  {
+    "id": "phys-s31-l05",
+    "n_lesson": 5,
+    "n_section": 31,
+    "header": "Física Moderna I: Relatividad Especial",
+    "type": "question",
+    "options": ["E = mc^2", "F = ma", "PV=nRT", "V=IR"],
+    "response": ["E = mc^2"]
+  },
+  {
+    "id": "phys-s32-l01",
+    "n_lesson": 1,
+    "n_section": 32,
+    "header": "Física Moderna II: Dualidad Onda-Partícula",
+    "type": "question",
+    "options": ["Materia se comporta como onda y partícula.", "Solo onda.", "Solo partícula.", "Ninguna."],
+    "response": ["Materia se comporta como onda y partícula."]
+  },
+  {
+    "id": "phys-s32-l02",
+    "n_lesson": 2,
+    "n_section": 32,
+    "header": "Física Moderna II: Longitud de Onda De Broglie",
+    "type": "formula",
+    "options": ["λ", "=", "h", "/", "p"],
+    "response": ["λ", "=", "h", "/", "p"]
+  },
+  {
+    "id": "phys-s32-l03",
+    "n_lesson": 3,
+    "n_section": 32,
+    "header": "Física Moderna II: Principio de Incertidumbre",
+    "type": "question",
+    "options": ["No se puede conocer posición y momento simultáneamente con precisión.", "Todo es exacto.", "El electrón está quieto.", "La energía es cero."],
+    "response": ["No se puede conocer posición y momento simultáneamente con precisión."]
+  },
+  {
+    "id": "phys-s32-l04",
+    "n_lesson": 4,
+    "n_section": 32,
+    "header": "Física Moderna II: Fórmula Incertidumbre",
+    "type": "formula",
+    "options": ["Δx*Δp", "≥", "h", "/", "4π"],
+    "response": ["Δx*Δp", "≥", "h", "/", "4π"]
+  },
+  {
+    "id": "phys-s32-l05",
+    "n_lesson": 5,
+    "n_section": 32,
+    "header": "Física Moderna II: Rayos X",
+    "type": "question",
+    "options": ["Radiación electromagnética de alta energía.", "Ondas de radio.", "Luz visible.", "Sonido."],
+    "response": ["Radiación electromagnética de alta energía."]
+  }
+]
